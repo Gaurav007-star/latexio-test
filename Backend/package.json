@@ -1,0 +1,30 @@
+{
+  "name": "iit-kgp-latex-editor-backend",
+  "version": "1.0.0",
+  "description": "IIT KGP LaTeX Editor Backend is a backend server for the IIT Kharagpur LaTeX Editor project. It provides APIs for user authentication, document management, and collaboration features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@y/websocket-server": "^0.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "googleapis": "^148.0.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "validator": "^13.15.0",
+    "ws": "^8.18.3",
+    "y-websockets-server": "^9.2.1",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
